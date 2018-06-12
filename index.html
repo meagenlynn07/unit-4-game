@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+   
+</head>
+
+<body>
+    <h1>Crystal Collector</h1>
+    <p>You will be given a random number at the start of the game</p>
+    <P>There are four crystals below. By clicking on a start you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to random number, you lose the fame if your total score goes above the
+        random number.</p>
+    <p>The value of each crystal is hidden fromyou until you click on it.</p>
+    <p>Each time when the game starts, the game will chance the values of each crystal.</p>
+
+    <div id="compPick"></div>
+
+    <div>
+        <div>
+            <span class="wins"></span>
+        </div>
+        <div>
+            <span class="losses"></span>
+        </div>
+    </div>
+
+    <div id = "crystals"></div>
+
+    <div id = "currentScore">Your total score is:</div>
+    <div>
+        <span class="score"></span>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
+
+
+
